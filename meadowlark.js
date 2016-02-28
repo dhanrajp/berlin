@@ -23,6 +23,8 @@ var fortunes = [
   "Do not fear what you don't know",
   "You will have a pleasant surprise",
   "Keep it simple",
+  "Look it Rolo!!",
+  "Ready to race!",
   ];
 
 app.get('/about',function(req,res){
