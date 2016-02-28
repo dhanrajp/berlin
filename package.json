@@ -10,10 +10,13 @@
     "array-flatten": "^1.1.1",
     "asap": "^2.0.3",
     "async": "^1.5.2",
+    "aws-sdk": "^2.2.39",
     "balanced-match": "^0.3.0",
+    "body-parser": "^1.15.0",
     "brace-expansion": "^1.1.3",
     "camelcase": "^1.2.1",
     "center-align": "^0.1.3",
+    "chai": "^3.5.0",
     "cliui": "^2.1.0",
     "concat-map": "^0.0.1",
     "content-disposition": "^0.5.1",
@@ -33,6 +36,7 @@
     "express-handlebars": "^3.0.0",
     "finalhandler": "^0.4.1",
     "foreach": "^2.0.5",
+    "formidable": "^1.0.17",
     "forwarded": "^0.1.0",
     "fresh": "^0.3.0",
     "function-bind": "^1.1.0",
@@ -55,6 +59,7 @@
     "mime-types": "^2.1.10",
     "minimatch": "^3.0.0",
     "minimist": "^0.0.10",
+    "mocha": "^2.4.5",
     "ms": "^0.7.1",
     "negotiator": "^0.5.3",
     "object-keys": "^1.0.9",
@@ -86,7 +91,10 @@
     "wrappy": "^1.0.1",
     "yargs": "^3.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

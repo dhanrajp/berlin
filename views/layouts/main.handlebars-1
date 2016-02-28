@@ -13,6 +13,9 @@
 </head>
 <body>
 <div class="container-fluid">
+<div class="row">
+  <div class="col-sm-2" style="background-color:lavender;></div>
+  <div class="col-sm-10" style="background-color:lavender;>
     {{{body}}}
     {{#if showTests}}
         <div id="mocha"></div>
@@ -28,6 +31,8 @@
         {{/if}}
             <script>mocha.run();</script>
       {{/if}}
+    </div>
+  </div>
 </div>
 </body>
 </html>
